@@ -35,8 +35,6 @@
     MainViewController *mainV = [[MainViewController alloc]init];
     
     RootViewController *rootView = [[RootViewController alloc]init];
-    
-
     UITabBarController *tab = [[UITabBarController alloc]init];
     
     

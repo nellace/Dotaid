@@ -27,6 +27,7 @@
         {
             self.teamFirst = @"TBD";
             self.teamSecond = @"TBD";
+            
         }
     }
     return self;
