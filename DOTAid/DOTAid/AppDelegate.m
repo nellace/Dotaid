@@ -33,7 +33,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     MainViewController *mainV = [[MainViewController alloc]init];
-    
     RootViewController *rootView = [[RootViewController alloc]init];
     UITabBarController *tab = [[UITabBarController alloc]init];
     
