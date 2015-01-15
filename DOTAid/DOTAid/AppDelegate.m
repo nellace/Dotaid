@@ -32,11 +32,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    
-    
-    
-    
-    NSLog(@"change");
+    NSLog(@"name");
     MainViewController *mainV = [[MainViewController alloc]init];
     RootViewController *rootView = [[RootViewController alloc]init];
     UITabBarController *tab = [[UITabBarController alloc]init];

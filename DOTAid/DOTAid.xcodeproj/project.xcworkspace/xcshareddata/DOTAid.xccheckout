@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64D2A03D-8458-48FC-83C7-34BE493ED463</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DOTAid</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE4ADA02CAB04D55F422B615ED7A8A0644B1DEC1</key>
+		<string>github.com:nellace/Dotaid.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DOTAid/DOTAid.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE4ADA02CAB04D55F422B615ED7A8A0644B1DEC1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:nellace/Dotaid.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE4ADA02CAB04D55F422B615ED7A8A0644B1DEC1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE4ADA02CAB04D55F422B615ED7A8A0644B1DEC1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dotaid</string>
+		</dict>
+	</array>
+</dict>
+</plist>
