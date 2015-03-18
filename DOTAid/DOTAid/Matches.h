@@ -11,13 +11,12 @@
 
 #import <UIKit/UIKit.h>
 #import "MainViewController.h"
-#import "ASIFormDataRequest.h"
-#import "ASIHTTPRequest.h"
 
-@interface Matches : UIView<UITableViewDataSource,UITableViewDelegate,ASIHTTPRequestDelegate>
+
+@interface Matches : UIView<UITableViewDataSource,UITableViewDelegate>
 
 @property (retain,nonatomic) MainViewController         *parent;
-@property (nonatomic,retain) NSMutableDictionary *matchDic;
+@property (nonatomic,retain) NSDictionary *matchDic;
 @property (nonatomic,retain) NSMutableArray *matchesArray;
 @property (nonatomic,retain)NSMutableArray *testArray;
 @end

@@ -211,14 +211,18 @@
     scheduledURL = [NSString stringWithFormat:@"http://api.steampowered.com/IDOTA2Match_570/GetScheduledLeagueGames/v1/?key=%@",KEY];
 //
 //    ASIFormDataRequest *request = [[ASIFormDataRequest alloc]initWithURL:[NSURL URLWithString:getScheldedURL]];
-    ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:scheduledURL]];
-    request.delegate = self;
-    [request setTimeOutSeconds:20];
+//    ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:scheduledURL]];
+//    request.delegate = self;
+//    [request setTimeOutSeconds:20];
 //    [request setPostValue:KEY forKey:@"key"];
-    [request startAsynchronous];
+//    [request startAsynchronous];
+    
+    [[ApiDataManager instance]getMatchesListWithHolder:nil Success:^(NSArray *dic) {
+        matchesArray = [NSMutableArray arrayWithArray:dic];
+    }];
 }
 
-- (void)requestFailed:(ASIHTTPRequest *)request
+/*- (void)requestFailed:(ASIHTTPRequest *)request
 {
     NSError *error = [request error];
     NSLog(@"错误%@",[error userInfo]);
@@ -236,6 +240,6 @@
     
     NSLog(@"succes");
     
-}
+}*/
 
 @end

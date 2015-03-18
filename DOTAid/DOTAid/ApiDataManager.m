@@ -7,6 +7,9 @@
 //
 
 #import "ApiDataManager.h"
+#import "AFHTTPRequestOperation.h"
+#import "AFHTTPRequestOperationManager.h"
+#import "JSONKit.h"
 
 @implementation ApiDataManager
 
@@ -18,5 +21,19 @@
         instanceManagerData = [[self alloc]init];
     });
     return instanceManagerData;
+}
+
+- (void)getMatchesListWithHolder:(UIView *)holder Success:(void (^)(NSArray *))success
+{
+    AFHTTPRequestOperationManager *manager =[AFHTTPRequestOperationManager manager];
+    [manager GET:ApiUrl parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        if (responseObject) {
+            NSArray *array =[[NSArray arrayWithObject:[responseObject objectForKey:@"matches"]]firstObject];
+            success(array);
+            NSLog(@"json:%@",array);
+        }
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"error:%@",error);
+    }];
 }
 @end

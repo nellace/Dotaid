@@ -7,8 +7,7 @@
 //
 
 #import "RootViewController.h"
-#import "ASIHTTPRequest.h"
 
-@interface MainViewController : RootViewController<UITabBarDelegate,ASIHTTPRequestDelegate>
+@interface MainViewController : RootViewController<UITabBarDelegate>
 
 @end
