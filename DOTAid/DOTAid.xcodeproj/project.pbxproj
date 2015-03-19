@@ -27,13 +27,6 @@
 		04A5129E19C95799005CE435 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5129D19C95799005CE435 /* MainViewController.m */; };
 		04AD2F8519EB7E980040A91C /* CellList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04AD2F8419EB7E980040A91C /* CellList.plist */; };
 		04AE90C819CC2036009CA1F0 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90B819CC2036009CA1F0 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		04AE90C919CC2036009CA1F0 /* AccelerationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90BB19CC2036009CA1F0 /* AccelerationAnimation.m */; };
-		04AE90CA19CC2036009CA1F0 /* Evaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90BD19CC2036009CA1F0 /* Evaluate.m */; };
-		04AE90CB19CC2036009CA1F0 /* REBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90BF19CC2036009CA1F0 /* REBackgroundView.m */; };
-		04AE90CC19CC2036009CA1F0 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90C119CC2036009CA1F0 /* RESideMenu.m */; };
-		04AE90CD19CC2036009CA1F0 /* RESideMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90C319CC2036009CA1F0 /* RESideMenuCell.m */; };
-		04AE90CE19CC2036009CA1F0 /* RESideMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90C519CC2036009CA1F0 /* RESideMenuItem.m */; };
-		04AE90CF19CC2036009CA1F0 /* UIWindow+RESideMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90C719CC2036009CA1F0 /* UIWindow+RESideMenuExtensions.m */; };
 		04AE90F319CC2650009CA1F0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE90F219CC2650009CA1F0 /* CFNetwork.framework */; };
 		04AE90F519CC265B009CA1F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE90F419CC265B009CA1F0 /* SystemConfiguration.framework */; };
 		04AE90F719CC2665009CA1F0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE90F619CC2665009CA1F0 /* MobileCoreServices.framework */; };
@@ -95,20 +88,6 @@
 		04AD2F8419EB7E980040A91C /* CellList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellList.plist; sourceTree = "<group>"; };
 		04AE90B719CC2036009CA1F0 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		04AE90B819CC2036009CA1F0 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		04AE90BA19CC2036009CA1F0 /* AccelerationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationAnimation.h; sourceTree = "<group>"; };
-		04AE90BB19CC2036009CA1F0 /* AccelerationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationAnimation.m; sourceTree = "<group>"; };
-		04AE90BC19CC2036009CA1F0 /* Evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluate.h; sourceTree = "<group>"; };
-		04AE90BD19CC2036009CA1F0 /* Evaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evaluate.m; sourceTree = "<group>"; };
-		04AE90BE19CC2036009CA1F0 /* REBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REBackgroundView.h; sourceTree = "<group>"; };
-		04AE90BF19CC2036009CA1F0 /* REBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REBackgroundView.m; sourceTree = "<group>"; };
-		04AE90C019CC2036009CA1F0 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
-		04AE90C119CC2036009CA1F0 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
-		04AE90C219CC2036009CA1F0 /* RESideMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuCell.h; sourceTree = "<group>"; };
-		04AE90C319CC2036009CA1F0 /* RESideMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuCell.m; sourceTree = "<group>"; };
-		04AE90C419CC2036009CA1F0 /* RESideMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenuItem.h; sourceTree = "<group>"; };
-		04AE90C519CC2036009CA1F0 /* RESideMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenuItem.m; sourceTree = "<group>"; };
-		04AE90C619CC2036009CA1F0 /* UIWindow+RESideMenuExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+RESideMenuExtensions.h"; sourceTree = "<group>"; };
-		04AE90C719CC2036009CA1F0 /* UIWindow+RESideMenuExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+RESideMenuExtensions.m"; sourceTree = "<group>"; };
 		04AE90F219CC2650009CA1F0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		04AE90F419CC265B009CA1F0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		04AE90F619CC2665009CA1F0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -302,7 +281,6 @@
 			children = (
 				39E271A31AB81D9900856D12 /* AFNetworking */,
 				04AE90B619CC2036009CA1F0 /* jsonKit */,
-				04AE90B919CC2036009CA1F0 /* RESideMenu */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -314,27 +292,6 @@
 				04AE90B819CC2036009CA1F0 /* JSONKit.m */,
 			);
 			path = jsonKit;
-			sourceTree = "<group>";
-		};
-		04AE90B919CC2036009CA1F0 /* RESideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				04AE90BA19CC2036009CA1F0 /* AccelerationAnimation.h */,
-				04AE90BB19CC2036009CA1F0 /* AccelerationAnimation.m */,
-				04AE90BC19CC2036009CA1F0 /* Evaluate.h */,
-				04AE90BD19CC2036009CA1F0 /* Evaluate.m */,
-				04AE90BE19CC2036009CA1F0 /* REBackgroundView.h */,
-				04AE90BF19CC2036009CA1F0 /* REBackgroundView.m */,
-				04AE90C019CC2036009CA1F0 /* RESideMenu.h */,
-				04AE90C119CC2036009CA1F0 /* RESideMenu.m */,
-				04AE90C219CC2036009CA1F0 /* RESideMenuCell.h */,
-				04AE90C319CC2036009CA1F0 /* RESideMenuCell.m */,
-				04AE90C419CC2036009CA1F0 /* RESideMenuItem.h */,
-				04AE90C519CC2036009CA1F0 /* RESideMenuItem.m */,
-				04AE90C619CC2036009CA1F0 /* UIWindow+RESideMenuExtensions.h */,
-				04AE90C719CC2036009CA1F0 /* UIWindow+RESideMenuExtensions.m */,
-			);
-			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 		39E271A31AB81D9900856D12 /* AFNetworking */ = {
@@ -468,25 +425,18 @@
 				39E271BC1AB81D9900856D12 /* AFURLConnectionOperation.m in Sources */,
 				04D555F719CAD0AF002C9DC4 /* Matches.m in Sources */,
 				04A5124919C81D38005CE435 /* AppDelegate.m in Sources */,
-				04AE90CB19CC2036009CA1F0 /* REBackgroundView.m in Sources */,
 				39E271BF1AB81D9900856D12 /* AFURLSessionManager.m in Sources */,
 				04D5560019CAD8B8002C9DC4 /* MatchDetailViewController.m in Sources */,
 				39E271A21AB814F200856D12 /* ApiDataManager.m in Sources */,
-				04AE90CD19CC2036009CA1F0 /* RESideMenuCell.m in Sources */,
 				39E271BB1AB81D9900856D12 /* AFSecurityPolicy.m in Sources */,
 				39E271B71AB81D9900856D12 /* AFHTTPRequestOperation.m in Sources */,
 				04A5128119C8200A005CE435 /* RootViewController.m in Sources */,
-				04AE90CF19CC2036009CA1F0 /* UIWindow+RESideMenuExtensions.m in Sources */,
-				04AE90CA19CC2036009CA1F0 /* Evaluate.m in Sources */,
-				04AE90CC19CC2036009CA1F0 /* RESideMenu.m in Sources */,
 				0408ADEA19D175C600F8D0C1 /* matchesCell.m in Sources */,
 				0408ADE719D173E700F8D0C1 /* MatchesData.m in Sources */,
 				39E271B91AB81D9900856D12 /* AFHTTPSessionManager.m in Sources */,
-				04AE90C919CC2036009CA1F0 /* AccelerationAnimation.m in Sources */,
 				04AE90C819CC2036009CA1F0 /* JSONKit.m in Sources */,
 				04D555FD19CAD1A3002C9DC4 /* SetViewController.m in Sources */,
 				39E271B81AB81D9900856D12 /* AFHTTPRequestOperationManager.m in Sources */,
-				04AE90CE19CC2036009CA1F0 /* RESideMenuItem.m in Sources */,
 				04A5124519C81D38005CE435 /* main.m in Sources */,
 				04D555FA19CAD0BA002C9DC4 /* Lives.m in Sources */,
 				04D555F419CAD0A0002C9DC4 /* Profile.m in Sources */,
