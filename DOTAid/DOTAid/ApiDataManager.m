@@ -26,6 +26,7 @@
 - (void)getMatchesListWithHolder:(UIView *)holder Success:(void (^)(NSArray *))success
 {
     AFHTTPRequestOperationManager *manager =[AFHTTPRequestOperationManager manager];
+    
     [manager GET:ApiUrl parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (responseObject) {
             NSArray *array =[[NSArray arrayWithObject:[responseObject objectForKey:@"matches"]]firstObject];

@@ -7,11 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "LeftMenuViewController.h"
 
-
-
-#import "RootViewController.h"
-#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -33,11 +31,14 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     NSLog(@"name");
-    MainViewController *mainV = [[MainViewController alloc]init];
-    RootViewController *rootView = [[RootViewController alloc]init];
-    UITabBarController *tab = [[UITabBarController alloc]init];
+    HomeViewController *mainV = [[HomeViewController alloc]init];
+    LeftMenuViewController *leftMenu = [[LeftMenuViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:mainV];
-    self.window.rootViewController = navi;
+    RESideMenu *sideMenuViewController = [[RESideMenu alloc]initWithContentViewController:navi leftMenuViewController:leftMenu rightMenuViewController:nil];
+    sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
+    sideMenuViewController.contentViewShadowEnabled = YES;
+
+    self.window.rootViewController = sideMenuViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
