@@ -35,11 +35,13 @@
     LeftMenuViewController *leftMenu = [[LeftMenuViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:mainV];
     RESideMenu *sideMenuViewController = [[RESideMenu alloc]initWithContentViewController:navi leftMenuViewController:leftMenu rightMenuViewController:nil];
+    sideMenuViewController.delegate = self;
     sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
     sideMenuViewController.contentViewShadowEnabled = YES;
 
     self.window.rootViewController = sideMenuViewController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

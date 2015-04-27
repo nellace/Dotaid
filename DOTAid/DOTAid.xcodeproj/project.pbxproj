@@ -363,9 +363,10 @@
 				ORGANIZATIONNAME = com;
 				TargetAttributes = {
 					04A5123419C81D38005CE435 = {
-						DevelopmentTeam = DL6GBFL7D3;
+						DevelopmentTeam = N6GCC9HZNJ;
 					};
 					04A5124F19C81D38005CE435 = {
+						DevelopmentTeam = N6GCC9HZNJ;
 						TestTargetID = 04A5123419C81D38005CE435;
 					};
 				};

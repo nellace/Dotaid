@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RESideMenu.h"
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
+@property (nonatomic,strong) UITableView *matchesListTab;
+@property (nonatomic,strong) NSArray *matchArray;
 @end

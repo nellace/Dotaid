@@ -15,5 +15,12 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-#import"ApiDataManager.h"
+    #import"ApiDataManager.h"
+
+
+#define SCREEN_WIDTH  ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].applicationFrame.size.height)
+#define BASE_URL @"http://dailydota2.com"
+
+
 #endif

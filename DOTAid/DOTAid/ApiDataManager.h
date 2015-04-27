@@ -15,6 +15,6 @@
 +(ApiDataManager *)instance;
 
 - (void)getMatchesListWithHolder:(UIView *)holder
-                         Success:(void(^)(NSArray *dic))success;
+                         Success:(void(^)(NSArray *array))success;
 
 @end
