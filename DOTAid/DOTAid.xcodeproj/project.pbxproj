@@ -41,6 +41,7 @@
 		B71C0FC51AEA2E8000D43BCF /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B71C0FC21AEA2E8000D43BCF /* UIViewController+RESideMenu.m */; };
 		B71C0FC81AEA347A00D43BCF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71C0FC71AEA347A00D43BCF /* HomeViewController.m */; };
 		B71C0FCB1AEA350900D43BCF /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71C0FCA1AEA350900D43BCF /* LeftMenuViewController.m */; };
+		B7CB88981AEF357900FFE5F3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB88971AEF357900FFE5F3 /* UIImageView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,8 @@
 		B71C0FC71AEA347A00D43BCF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = DOTAid/HomeViewController.m; sourceTree = "<group>"; };
 		B71C0FC91AEA350900D43BCF /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftMenuViewController.h; path = DOTAid/LeftMenuViewController.h; sourceTree = "<group>"; };
 		B71C0FCA1AEA350900D43BCF /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftMenuViewController.m; path = DOTAid/LeftMenuViewController.m; sourceTree = "<group>"; };
+		B7CB88961AEF357900FFE5F3 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		B7CB88971AEF357900FFE5F3 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +271,8 @@
 		39E271A31AB81D9900856D12 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				B7CB88961AEF357900FFE5F3 /* UIImageView+AFNetworking.h */,
+				B7CB88971AEF357900FFE5F3 /* UIImageView+AFNetworking.m */,
 				39E271A41AB81D9900856D12 /* AFHTTPRequestOperation.h */,
 				39E271A51AB81D9900856D12 /* AFHTTPRequestOperation.m */,
 				39E271A61AB81D9900856D12 /* AFHTTPRequestOperationManager.h */,
@@ -426,6 +431,7 @@
 				0408ADE719D173E700F8D0C1 /* MatchesData.m in Sources */,
 				39E271B91AB81D9900856D12 /* AFHTTPSessionManager.m in Sources */,
 				04AE90C819CC2036009CA1F0 /* JSONKit.m in Sources */,
+				B7CB88981AEF357900FFE5F3 /* UIImageView+AFNetworking.m in Sources */,
 				B71C0FC41AEA2E8000D43BCF /* RESideMenu.m in Sources */,
 				39E271B81AB81D9900856D12 /* AFHTTPRequestOperationManager.m in Sources */,
 				04A5124519C81D38005CE435 /* main.m in Sources */,

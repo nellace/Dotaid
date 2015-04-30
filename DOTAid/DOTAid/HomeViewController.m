@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface HomeViewController ()
 
@@ -65,12 +66,10 @@
         
         UIImageView *teamLeft = [[UIImageView alloc]initWithFrame:CGRectMake(40, 15, 40, 40)];
         teamLeft.tag = 2000;
-        teamLeft.backgroundColor = [UIColor redColor];
         [cell.contentView addSubview:teamLeft];
         
         UIImageView *teamRight = [[UIImageView alloc]initWithFrame:CGRectMake(SCREEN_WIDTH - 80, 15, 40, 40)];
         teamRight.tag = 2001;
-        teamRight.backgroundColor = [UIColor redColor];
         [cell.contentView addSubview:teamRight];
         
         UILabel *nameLeft = [[UILabel alloc]initWithFrame:CGRectMake(0, 50, 120, 30)];
@@ -105,14 +104,18 @@
     }
     if (matchArray.count > 0) {
         NSDictionary *dic =[matchArray objectAtIndex:indexPath.row];
-        NSString *imageUrlLeft =[NSString stringWithFormat:@"%@%@",BASE_URL,[[dic objectForKey:@"team1"]objectForKey:@"logo_url"]];
         
-        NSString *imageUrlRight =[NSString stringWithFormat:@"%@%@",BASE_URL,[[dic objectForKey:@"team2"]objectForKey:@"logo_url"]];
+        NSString *imageStrLeft =[NSString stringWithFormat:@"%@%@",BASE_URL,[[dic objectForKey:@"team1"]objectForKey:@"logo_url"]];
+        NSURL *imageUrlLeft = [NSURL URLWithString:imageStrLeft];
+//        NSData *data = [NSData dataWithContentsOfURL:imageUrlLeft];
+        
         UIImageView *teamLeft = (UIImageView*)[cell.contentView viewWithTag:2000];
-        teamLeft.image = [UIImage imageWithContentsOfFile:imageUrlLeft];
+        [teamLeft setImageWithURL:imageUrlLeft];
         
+        NSString *imageStrRight =[NSString stringWithFormat:@"%@%@",BASE_URL,[[dic objectForKey:@"team2"]objectForKey:@"logo_url"]];
+        NSURL *imageUrlRight =[NSURL URLWithString:imageStrRight];
         UIImageView *teamRight = (UIImageView*)[cell.contentView viewWithTag:2001];
-        teamRight.image = [UIImage imageWithContentsOfFile:imageUrlRight];
+        [teamRight setImageWithURL:imageUrlRight];
         
         UILabel *nameLeft =(UILabel*)[cell.contentView viewWithTag:1000];
         nameLeft.text = [[dic objectForKey:@"team1"]objectForKey:@"team_tag"];
